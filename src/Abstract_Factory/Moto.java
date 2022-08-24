@@ -1,0 +1,33 @@
+package Abstract_Factory;
+
+public abstract class Moto {
+	String modelo;
+	String color;
+	
+	
+	public String getModelo() {
+		return modelo;
+	}
+
+
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+
+
+	public String getColor() {
+		return color;
+	}
+
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+
+	public Moto(String modelo, String color) {
+		super();
+		this.modelo = modelo;
+		this.color = color;
+	}
+}
